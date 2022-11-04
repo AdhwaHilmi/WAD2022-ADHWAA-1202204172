@@ -74,7 +74,7 @@
                     echo '<td>';
                     switch ($_POST['car_type']){
                         case "Rush":
-                            $price=200000
+                            $price=200000;
                             $price=$price*$_POST['duration'];
                             foreach ($_POST['service'] as $AS){
                                 $price+=(int)$AS;

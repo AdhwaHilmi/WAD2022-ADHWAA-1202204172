@@ -45,12 +45,12 @@
                     <div class="row">
                         <div class="col">
                             <?php
-                            if(iset($_GET['mobil'])){
+                            if(isset($_GET['mobil'])){
                                 if($_GET['mobil']=='Rush'){
                                 echo '<img width="350" height="250" src=image/Rush.jpeg></img>';
                                 }
                                 elseif($_GET['mobil']=='Yaris'){
-                                    echo '<img width="350" height="250" src=image/Yaris.jpeg></img>';
+                                echo '<img width="350" height="250" src=image/Yaris.jpeg></img>';
                                 }
                                 elseif($_GET['mobil']=='Jazz'){
                                 echo '<img width="350" height="250" src=image/Jazz.jpeg></img>';
