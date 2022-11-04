@@ -55,7 +55,7 @@
                             7 kursi<br>
                             Manual
                             </p></b>
-                            <a class="btn btn-primary" href="Adhwa_booking.php?mobil==<?php echo 'Rush' ?>">Book now!</a>
+                            <a class="btn btn-primary" href="Adhwa_booking.php?mobil=<?php echo 'Rush' ?>">Book now!</a>
                         </center>
                     </div>
                 </div>
