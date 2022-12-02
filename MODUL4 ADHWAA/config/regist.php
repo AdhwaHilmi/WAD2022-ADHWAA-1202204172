@@ -7,7 +7,7 @@
     $name = $_POST['nama'];
     $NoHp = $_POST['NoHp'];
     $Password = $_POST['password'];
-    $dt_username="SELECT * FROM user_adhwa WHERE email='email'";
+    $dt_username="SELECT * FROM user_adhwa WHERE email='$email'";
     $executeQuery=mysqli_query($connect, $dt_username);
     if(mysqli_num_rows($executeQuery)>0){
         $result=mysqli_fetch_assoc($executeQuery);

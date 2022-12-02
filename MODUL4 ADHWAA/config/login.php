@@ -1,6 +1,6 @@
     <?php
     if(!isset($_SESSION)){
-        session_destroy();
+        session_start();
     }
     $connect=mysqli_connect("localhost:3315", "root", "", "wad_modul4_adhwa");
     $email=$_POST['email'];
